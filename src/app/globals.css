@@ -24,3 +24,31 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.blog-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+.blog-container table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+.blog-container th,
+.blog-container td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.blog-container th {
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+.blog-container td {
+  vertical-align: top;
+}
