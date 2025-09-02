@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 export default function BlogPage() {
   return (
     <div className="blog-container">
